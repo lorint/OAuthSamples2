@@ -1,7 +1,5 @@
 Rails.application.routes.draw do
 
-  get "facebook/facebook"
-  get "facebook/posts"
   get '/' => 'home#index', as: :root
   get '/instagram' => 'instagram#instagram'
   get '/instagram/feed' => 'instagram#feed', as: :feed
